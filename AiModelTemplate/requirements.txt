@@ -1,0 +1,6 @@
+langchain
+transformers
+torch
+numpy
+pinecone-client
+google-cloud-aiplatform

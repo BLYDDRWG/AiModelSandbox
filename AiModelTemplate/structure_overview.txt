@@ -1,0 +1,22 @@
+structure_overview.txt
+langchain-rag-chatbot/
+├── data/
+│   ├── documents/          # Directory to store documents for retrieval
+│   └── processed/          # Directory to store processed data
+├── models/
+│   ├── retriever.py        # Code for the retriever model
+│   ├── generator.py        # Code for the generator model
+│   └── embeddings.py       # Code for the embeddings model
+├── agents/
+│   └── chatbot_agent.py    # Code for the chatbot agent
+├── tools/
+│   └── tool.py             # Code for additional tools
+├── templates/
+│   └── prompt_template.txt # Prompt template for the generator
+├── utils/
+│   ├── preprocess.py       # Code for data preprocessing
+│   └── postprocess.py      # Code for postprocessing the generated responses
+├── main.py                 # Main entry point for the chatbot
+├── config.py               # Configuration settings
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
